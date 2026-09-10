@@ -1,7 +1,6 @@
 from pathlib import Path
 
 import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
 
 
@@ -39,7 +38,7 @@ df = pd.concat(
     ).reset_index()
 
 
-plt.style.use(Path(__file__).parent / "tokyonight.mplstyle")
+plt.style.use(Path(__file__).parent.parent / "config" / "tokyonight.mplstyle")
 
 fig, ax = plt.subplots(figsize=(12, 6))
 ax.plot(df["iteration"], df["hinge_moment_upper_flap"])
@@ -85,7 +84,7 @@ def render(
     output_path.mkdir(parents=True, exist_ok=True)
     
     # Load stylesheet relative to current script safely
-    style_file = Path(__file__).parent / "tokyonight.mplstyle"
+    style_file = Path(__file__).parent.parent / "config" / "tokyonight.mplstyle"
     if style_file.exists():
         plt.style.use(style_file)
 
