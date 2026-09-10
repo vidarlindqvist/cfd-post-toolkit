@@ -1,0 +1,29 @@
+# tokyonight theme for mpl
+
+font.family: JetBrainsMono Nerd Font
+font.size: 12
+axes.titlesize: 18
+axes.labelsize: 16
+xtick.labelsize: 14
+ytick.labelsize: 14
+legend.fontsize: 14
+
+axes.facecolor: 1a1b26
+figure.facecolor: 1a1b26
+savefig.facecolor: 1a1b26
+
+axes.grid: True
+grid.color: 292e42
+grid.linestyle: :
+
+axes.spines.top: False
+axes.spines.right: False
+axes.edgecolor: 414868
+
+text.color: c0caf5
+axes.labelcolor: c0caf5
+xtick.color: c0caf5
+ytick.color: c0caf5
+
+lines.linewidth: 2.0
+axes.prop_cycle: cycler('color', ['7aa2f7', 'f7768e', 'e0af68', '9ece6a', '7dcfff', 'bb9af7'])

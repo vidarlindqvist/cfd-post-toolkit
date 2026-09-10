@@ -1,0 +1,23 @@
+# custom theme for SIRIUS SAAB 2026 postprocessing of Fluent case data
+
+axes.facecolor: 121212
+figure.facecolor: 121212
+savefig.facecolor: 121212
+
+axes.grid: True
+grid.color: 333333
+grid.linestyle: :
+
+axes.spines.top: False
+axes.spines.right: False
+axes.edgecolor: 333333
+
+text.color: E0E0E0
+axes.labelcolor: E0E0E0
+xtick.color: E0E0E0
+ytick.color: E0E0E0
+
+lines.linewidth: 2.0
+axes.prop_cycle: cycler('color', ['00E5FF', 'FF6E6E', 'FFD166', '6EFFA3', 'C792EA'])
+
+figure.figsize: 11, 5
