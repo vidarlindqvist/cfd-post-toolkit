@@ -1,0 +1,29 @@
+# sirius saab theme
+
+font.family: JetBrainsMono Nerd Font
+font.size: 12
+axes.titlesize: 18
+axes.labelsize: 16
+xtick.labelsize: 14
+ytick.labelsize: 14
+legend.fontsize: 14
+
+axes.facecolor: FFFFFF
+figure.facecolor: FFFFFF
+savefig.facecolor: FFFFFF
+
+axes.grid: True
+grid.color: 292e42
+grid.linestyle: :
+
+axes.spines.top: False
+axes.spines.right: False
+axes.edgecolor: 414868
+
+text.color: 000000
+axes.labelcolor: 000000
+xtick.color: 000000
+ytick.color: 000000
+
+lines.linewidth: 2.0
+axes.prop_cycle: cycler('color', ['f7768e', '7aa2f7', 'e0af68', '9ece6a', '7dcfff', 'bb9af7', '73daca'])

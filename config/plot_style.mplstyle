@@ -1,4 +1,4 @@
-# custom theme for SIRIUS SAAB 2026 postprocessing of Fluent case data
+# a simple test theme
 
 axes.facecolor: 121212
 figure.facecolor: 121212
